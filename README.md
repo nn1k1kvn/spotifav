@@ -1,4 +1,4 @@
-##spotifav
+## spotifav
 
 ### Relevant blog post: [Dimitris Spathis](https://medium.com/p/fe50c94b8af3)
 
@@ -8,7 +8,7 @@ This repository contains the necessary code, data, and Jupyter Notebooks to esti
 
 To run you should set up the usual sci-Python gang: Matplotlib, Numpy, Pandas, Seaborn and Sklearn. 
 
-###Steps
+### Steps
 1. Log in to [Echonest app](http://static.echonest.com/SortYourMusic/) and choose your playlist.
 2. Copy the table to a spreadsheet.
 3. Save it as csv.
@@ -18,7 +18,7 @@ To run you should set up the usual sci-Python gang: Matplotlib, Numpy, Pandas, S
 
 As an alternative, you can query your playlists through the [Spotify API](https://developer.spotify.com/web-api/get-audio-features/), getting access to even more features. 
 
-###Histograms & Correlations
+### Histograms & Correlations
 
 | Histograms of my playlist's features | Compared to the most popular Spotify playlist |
 | ------------- | ------------- |
@@ -36,13 +36,13 @@ As an alternative, you can query your playlists through the [Spotify API](https:
 | ------------- | ------------- | 
 | ![PICTURE](https://github.com/nn1k1kvn/spotifav/blob/master/Figures/energy_valence_corr.png)  | ![PICTURE](https://github.com/nn1k1kvn/spotifav/blob/master/Figures/popularity_energy_corr.png)  |
 
-###t-SNE Dimensionality Reduction
+### t-SNE Dimensionality Reduction
 
 | Cléa Vincent songs | Eurythmics songs |
 | ------------- | ------------- |
 | ![PICTURE](https://github.com/nn1k1kvn/spotifav/blob/master/Figures/tsne_clea_vincent.png)  | ![PICTURE](https://github.com/nn1k1kvn/spotifav/blob/master/Figures/tsne_eurythmics.png)  |
 
-###Outlier Detection 
+### Outlier Detection 
 
 | Contour plot of fitted one-class SVM  |
 | -------------  |
